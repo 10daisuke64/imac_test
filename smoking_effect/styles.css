@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  background: black;
+  overflow-x: hidden;
+}
+canvas {
+  /* position: absolute;
+  top:0;
+  left:0;
+  z-index:-99; */
+}
+.canvas {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url(./forest_2.jpg);
+  background-size: cover;
+}
+.canvas canvas {
+  opacity: 0.4;
+}
